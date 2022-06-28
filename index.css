@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Proza+Libre&display=swap');
+
+* {
+    font-family: Poppins;
+}
+
+.featured {}
+
+.ff {
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 2vw;
+    color: #4F516B;
+}
+
+h3 {
+    color: #4F516B;
+}
+
+.data {
+    width: 100%;
+    height: auto;
+}
+
+.fetback {
+    width: 100%;
+    height: 39.5vw;
+    background-image: url("featured.png");
+    background-repeat: no-repeat;
+    background-size: 95vw;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.rec {
+    border-bottom: 16vw solid white;
+    border-left: 0vw solid transparent;
+    border-right: 14vw solid transparent;
+    height: 2vw;
+    width: 81vw;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+}
+
+.fetpara {
+    margin: 3.5% 9% 0% 9.4%;
+    font-size: 1.3vw;
+}
+
+.slides {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 87.5%;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 1 0;
+    margin: 2%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+}
+
+.blogs {
+    padding: 5%;
+    font-size: 1.3vw;
+}
+
+.blogphoto {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.low {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.list {
+    width: 83%;
+    height: auto;
+}
+
+.blogpost {
+    width: 86.5%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+}
+
+.blogg {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5%;
+    font-size: 1.3vw;
+}
+
+.blogpostimg {
+    width: 100%;
+    height: auto;
+    margin-bottom: -3%;
+}
+
+.sidepane {
+    width: 17%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -2%;
+    font-size: 1.3vw;
+}
+
+.date {
+    font-family: Proza Libre;
+    color: #9A9A9B;
+}
+
+.time {
+    font-family: Proza Libre;
+    color: #9A9A9B;
+}
+
+.by {
+    font-weight: 600;
+    background: linear-gradient(180deg, #444BAB 0%, #3E8EBC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
