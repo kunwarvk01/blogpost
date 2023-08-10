@@ -26,29 +26,29 @@ h3 {
 }
 
 .fetback {
-    width: 100%;
+    width: 100vw;
     margin: 0px;
     height: 39.5vw;
     background-image: url("featured.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100vw;
     display: flex;
     flex-direction: column-reverse;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
 }
 
 .rec {
-    border-bottom: 15vw solid white;
-    border-left: 0vw solid transparent;
-    border-right: 17vw solid transparent;
-    height: 2vw;
+    background-color: white;
+    height: 15vw;
     width: 81vw;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
 }
 
 .fetpara {
     margin: 4% 9% 0% 9.4%;
     font-size: 1.3vw;
 }
+
+.tri {}
 
 .slides {
     display: flex;
